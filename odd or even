@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int m;
+
+    cout << "Enter an integer: ";
+    cin >> m;
+
+    if ( m% 2 == 0)
+        cout << m << " is even.";
+    else
+        cout << m << " is odd.";
+
+    return 0;
+}
